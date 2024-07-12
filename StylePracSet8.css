@@ -1,0 +1,28 @@
+.loader {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(224, 224, 18);
+    border-top: 6px solid #4ECDC4;
+    /* background-color: rgb(152, 187, 187); */
+    animation: spinAnimate 1s linear 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        /* left: 0px;
+        background-color: red; */
+        transform: rotate(0deg);
+    }
+    to {
+        /* left: 200px;
+        background-color: blue; */
+        /* color: white; */
+        transform: rotate(360deg);
+    }
+}
+
+
+/* div:hover {
+    color: brown;
+} */
